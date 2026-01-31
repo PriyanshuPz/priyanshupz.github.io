@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family:
+    "Outfit",
+    "Noto Emoji",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-optical-sizing: auto;
+  box-sizing: border-box;
+  height: auto;
+}
+
+body {
+  transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+
+  @apply dark:bg-background dark:text-foreground;
+}
+
+@theme {
+  --color-muted: #4a5568;
+  --color-background: #fff;
+  --color-foreground: #000;
+}
+
+.emoji {
+  font-family: "Noto Emoji", inherit;
+}
+
+.dark {
+  --color-muted: #a8adb2;
+  --color-background: #0c0f11;
+  --color-foreground: #dde1e7;
+}
+
+.prose a {
+  text-decoration: none;
+  @apply rounded-[5px] p-0 text-[#4385d7];
+}
+.prose a:hover {
+  @apply dark:bg-[#2f4a69] bg-[#fff2a8] rounded-[5px] p-0;
+}
+a {
+  @apply hover:text-[#4385d7] transition-colors;
+}
+
+.prose h3 {
+  text-transform: uppercase;
+  @apply tracking-widest font-medium;
+}
+
+.prose ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.internal-link {
+  @apply rounded-[5px] p-0 text-[#4385d7];
+}
+
+.internal-link:hover {
+  @apply dark:bg-[#2f4a69] bg-[#fff2a8] rounded-[5px] p-0;
+}
