@@ -1,5 +1,5 @@
 import { mdsvex } from "mdsvex";
-import adapter from "@sveltejs/adapter-static";
+import adapter from "@sveltejs/adapter-vercel";
 import remarkGfm from "remark-gfm";
 import remarkBreaks from "remark-breaks";
 import remarkSmartypants from "remark-smartypants";
@@ -18,10 +18,7 @@ const projects_layout = join(__dirname, "./src/lib/layouts/project.svelte");
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
-    adapter: adapter({
-      fallback: null,
-    }),
-    prerender: ["*"],
+    adapter: adapter(),
   },
 
   extensions: [".md", ".svelte", ".svx"],

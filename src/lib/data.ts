@@ -22,7 +22,7 @@ export const posts = [
     title: "📝 Build smart apps with Free tiers",
     description:
       "the kind of tech that can turn your app from “meh” to “whoa!” faster than you can say “machine learning.” ",
-    date: new Date("2024-09-29"),
+    date: "2024-09-29",
     tag: "Resource",
     read: "5 min",
   },
