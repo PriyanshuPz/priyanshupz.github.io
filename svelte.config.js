@@ -18,7 +18,10 @@ const projects_layout = join(__dirname, "./src/lib/layouts/project.svelte");
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+      fallback: null,
+    }),
+    prerender: ["*"],
   },
 
   extensions: [".md", ".svelte", ".svx"],
