@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>{rest.title}</title>
+  <title>{rest.title} | Priyanshu Verma</title>
 </svelte:head>
 
 <article class="prose prose-sm md:prose-base dark:prose-invert">

@@ -1,22 +1,6 @@
-# sv
+# Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-pnpm dlx sv create --template minimal --types ts --add tailwindcss="plugins:none" mdsvex sveltekit-adapter="adapter:static" --install pnpm .
-```
+Simple Portfolio with markdown blog and projects listing with about pages.
 
 ## Developing
 
