@@ -13,5 +13,8 @@ export default defineConfig(async ({ command, mode }) => {
       "import.meta.env.PUBLIC_BUILD_TIME": JSON.stringify(buildTime),
     },
     plugins: [tailwindcss(), sveltekit()],
+    build: {
+      assetsInlineLimit: Infinity,
+    },
   };
 });

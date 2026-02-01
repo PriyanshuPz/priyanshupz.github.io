@@ -12,7 +12,6 @@
       ? document.documentElement.classList.add("dark")
       : document.documentElement.classList.remove("dark");
   }
-
   if (browser) {
     if (
       localStorage.theme === "dark" ||
