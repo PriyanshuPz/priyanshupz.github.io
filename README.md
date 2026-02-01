@@ -1,6 +1,7 @@
 # Portfolio
 
 Simple Portfolio with markdown blog and projects listing with about pages.
+This website is statically generated that means can be hosted on google drive also.
 
 ## Developing
 

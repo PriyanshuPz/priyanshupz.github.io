@@ -1,6 +1,9 @@
 <script lang="ts">
   import SocialIcons from "$lib/components/socialIcons.svelte";
-  import { formatDate, posts, PRESENT } from "$lib/data";
+  import { PRESENT } from "$lib/data";
+  import { formatDate } from "$lib/utils";
+
+  const { data } = $props();
 </script>
 
 <svelte:head>
@@ -43,15 +46,17 @@
 
 <div>
   <span class="tracking-widest font-medium">RECENT POSTS</span>
-  {#each posts as post}
+  {#each data.posts as post}
     <div class="mt-5">
-      <a href={post.url} class="flex items-start">
+      <a href={post.slug} class="cursor-pointer">
         <span class="emoji">{post.title}</span>
       </a>
       <p class="text-muted text-[16px]">
         {formatDate(post.date)} • {post.read} • {post.tag}
       </p>
-      <p class="text-muted text-[16px]">{post.description}</p>
+      <p class="text-muted text-[16px]">
+        {post.description?.substring(0, 150)}...
+      </p>
     </div>
   {/each}
 

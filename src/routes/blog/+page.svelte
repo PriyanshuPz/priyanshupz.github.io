@@ -1,5 +1,7 @@
 <script lang="ts">
-  import { formatDate, posts } from "$lib/data";
+  import { formatDate } from "$lib/utils";
+
+  const { data } = $props();
 </script>
 
 <svelte:head>
@@ -7,8 +9,8 @@
 </svelte:head>
 
 <ol class="list-disc list-outside">
-  {#each posts as post}
-    <a href={post.url}>
+  {#each data.posts as post}
+    <a href={post.slug} class="cursor-pointer">
       <li class="ml-6">
         <div class="mt-5">
           <span class="emoji">{post.title}</span>

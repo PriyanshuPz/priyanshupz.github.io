@@ -2,10 +2,6 @@
   const { children, ...rest } = $props();
 </script>
 
-<svelte:head>
-  <title>{rest.title} | Priyanshu Verma</title>
-</svelte:head>
-
 <article class="prose prose-sm md:prose-base dark:prose-invert">
   <div>
     <h1 class="-ml-1.5"><a href="/projects">📔</a>/{rest.title}</h1>

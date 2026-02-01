@@ -1,5 +1,5 @@
+import adapter from "@sveltejs/adapter-static";
 import { mdsvex } from "mdsvex";
-import adapter from "@sveltejs/adapter-vercel";
 import remarkGfm from "remark-gfm";
 import remarkBreaks from "remark-breaks";
 import remarkSmartypants from "remark-smartypants";
@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const path_to_layout = join(__dirname, "./src/lib/layouts/base.svelte");
+const base_layout = join(__dirname, "./src/lib/layouts/base.svelte");
 const blog_layout = join(__dirname, "./src/lib/layouts/blog.svelte");
 const projects_layout = join(__dirname, "./src/lib/layouts/project.svelte");
 
@@ -19,17 +19,18 @@ const projects_layout = join(__dirname, "./src/lib/layouts/project.svelte");
 const config = {
   kit: {
     adapter: adapter(),
+    prerender: {
+      entries: ["*"],
+    },
   },
-
   extensions: [".md", ".svelte", ".svx"],
-
   preprocess: [
     mdsvex({
       extensions: [".md", ".svx"],
       layout: {
         blog: blog_layout,
         project: projects_layout,
-        _: path_to_layout,
+        _: base_layout,
       },
       remarkPlugins: [remarkGfm, remarkBreaks, remarkSmartypants],
       highlight: true,

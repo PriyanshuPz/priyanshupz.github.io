@@ -1,8 +1,10 @@
 ---
 title: "Build smart apps with Free tiers"
 date: 2024-09-29
+description: "Your decent ideas can become outstanding ones by incorporating AI into your applications. You can explore a world of possibilities without breaking the bank with these APIs that offer free tiers."
 read: "5 min"
 tag: Resource
+type: blog
 ---
 
 Hello, fellow code wranglers!

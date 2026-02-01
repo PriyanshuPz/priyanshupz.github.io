@@ -1,7 +1,8 @@
 ---
-title: Piperpad
+title: 🔑 Piperpad
 url: https://github.com/PriyanshuPz/piperpad
 description: a tiny 3×3 hackpad with per-key RGB light. Each of the 9 keys has its own RGB LED.
+category: Hardware
 layout: project
 ---
 
