@@ -22,6 +22,9 @@ const config = {
     prerender: {
       entries: ["*"],
     },
+    output: {
+      bundleStrategy: "inline",
+    },
   },
   extensions: [".md", ".svelte", ".svx"],
   preprocess: [

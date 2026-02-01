@@ -87,10 +87,7 @@ Some people and ideas that have shaped how I think:
 - Builders who explain _why_, not just _how_
 - Channels like [Veritasium](https://www.youtube.com/veritasium) and [Ben Eater](https://www.youtube.com/c/BenEater)
 
----
-
 ### 📲 Get in touch
 
-If you want to get in touch, email works best.
-
-[Get in touch →](mailto:pz@p8labs.qzz.io)
+If you want to get in touch, [email](mailto:pz@p8labs.qzz.io) works best.
+[Get in touch →](https://signal.me/#eu/TYGWqLUXWZlRQkKDZRGVrgeoUxswDdpgStXKaXZ5mxWB3V6ukglF_6TeRl-oojVU)

@@ -13,7 +13,13 @@
 <div
   class="flex md:items-start items-center justify-center mt-16 sm:flex-row flex-col"
 >
-  <img src="/priyanshu.png" alt="Priyanshu Verma" class="w-35.5 h-35.5" />
+  <img
+    src="/priyanshu.png"
+    alt="Priyanshu Verma"
+    width="142"
+    height="142"
+    class="w-35.5 h-35.5"
+  />
   <div class="sm:ml-9 mt-1">
     <p class="font-bold text-[28px] leading-[2.7rem] max-sm:text-center">
       <span><a href="/about">This is Priyanshu,</a></span>
