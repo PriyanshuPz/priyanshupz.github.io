@@ -2,7 +2,7 @@
 title: About | Priyanshu Verma
 ---
 
-# Namaste, I’m Priyanshu <span class="emoji">👋</span>
+# Namaste, I’m Priyanshu <span class="emoji">🙏</span>
 
 I was born in India and grew up curious about technology and science—often curious enough to break things.
 
