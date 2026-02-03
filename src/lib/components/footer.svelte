@@ -1,10 +1,5 @@
 <script lang="ts">
   import moment from "moment";
-
-  const buildTime =
-    import.meta.env.PUBLIC_BUILD_TIME || new Date().toISOString();
-  const commitHash = import.meta.env.PUBLIC_COMMIT_HASH || "production";
-  const timeAgo = moment(buildTime).fromNow();
 </script>
 
 <footer class="mx-auto max-w-190 my-5 mt-20 w-full px-[1.45rem]">
@@ -15,9 +10,11 @@
       <span>&copy; 2026 Priyanshu Verma</span>
     </div>
     <div class="flex items-center gap-1 max-sm:justify-center">
-      <span>Built {timeAgo}</span>
-      <span>•</span>
-      <code>{commitHash}</code>
+      <span
+        >Powered by <a class="internal-link" href="https://misty.p8labs.tech"
+          >Misty</a
+        >.
+      </span>
     </div>
   </div>
 </footer>
