@@ -4,90 +4,98 @@ title: User Manual | Priyanshu Verma
 
 # User Manual
 
-This is a playbook on how I think, work, and operate.  
-It captures my tendencies, strengths, weaknesses, and the principles I try to follow.
+This is a short guide to how I tend to think, work, and collaborate.  
+It isn’t exhaustive — just a practical reference for anyone working with me.
 
-### 🏠 Overview
+### Overview
 
-- **Technologist by curiosity**: I’ve been breaking and rebuilding things since childhood. I learn best by opening systems up and seeing how they work.
-- **Systems-oriented**: I naturally think in systems—software, infrastructure, products, and people.
-- **Independent builder**: I’m most comfortable when I have ownership, room to experiment, and space to think.
-- **Stoicism-influenced**: I value clarity, restraint, and long-term thinking over urgency and noise.
+I’m naturally drawn to systems — understanding how things fit together, where they fail, and how they can be made more durable.
 
-### 👍 Strengths
+Curiosity has been a constant. I usually learn by opening things up, breaking them, and figuring out why they behaved the way they did.
 
-- **Systems thinking**  
-  I like reducing complexity into understandable systems. This helps me reason clearly and make durable decisions.
+I’m comfortable working independently, but I value environments where ownership is clear and trust is assumed.
 
-- **Cross-disciplinary**  
-  I operate comfortably across engineering, product, and writing. I enjoy connecting ideas across domains.
+Long-term usefulness matters to me more than short bursts of progress.
 
-- **Learning fast**  
-  I pick things up quickly by building, breaking, and iterating. I’m comfortable being wrong early.
+### Strengths
 
-- **Persistence**  
-  I don’t give up easily. If something breaks, I’ll usually dig until I understand why.
+I’m usually at my best when a problem is still slightly undefined.
 
-### 👎 Weaknesses
+I like reducing complexity until the path forward becomes obvious. Once I understand the shape of a problem, I move steadily rather than dramatically.
 
-- **Working without context**  
-  I struggle when decisions are made without enough background or reasoning. Context matters to me.
+I tend to connect ideas across engineering, product, and writing. This often helps when decisions need both technical depth and practical judgment.
 
-- **Overthinking early**  
-  My brain sometimes skips simple solutions and jumps ahead too quickly. Gentle constraints help.
+Persistence comes naturally. If something isn’t working, my default response is to keep digging until it makes sense.
 
-- **Too many interests**  
-  I get excited by many ideas and can spread myself thin if I’m not careful.
+### Where I need help
 
-### 🛠 Principles
+Context matters to me. It’s hard for me to contribute meaningfully if I don’t understand the reasoning behind a decision.
 
-- **Clarity over cleverness**  
-  Simple, understandable systems beat impressive but fragile ones.
+My instinct is often to look a few steps ahead, which sometimes leads me to overcomplicate early solutions. A reminder to keep things simple is usually helpful.
 
-- **Bias toward building**  
-  The fastest way to learn is to make something real, even if it’s rough.
+I’m curious about many things, and that curiosity occasionally pulls my attention in too many directions. Clear priorities help me focus my energy where it matters most.
 
-- **Long-term thinking**  
-  I prefer decisions that age well over ones that optimize for short-term wins.
+### Principles I tend to follow
 
-- **Write things down**  
-  Writing is how I think. Notes, docs, and essays help surface better ideas.
+I try to prefer clarity over cleverness. Systems should be understandable before they are impressive.
 
-- **Keep it minimal**  
-  Process, tools, and abstractions should exist for a reason—not by default.
+Building something real is usually better than discussing it endlessly. Progress creates its own momentum.
 
-- **Learning in public**  
-  I tend to understand things better when I share what I’m learning.
+I think in longer time horizons whenever possible. Software that quietly works years later is more interesting to me than something optimized only for launch day.
 
-### 🩷 How I like to work
+Writing is part of how I think. When ideas are written down, they tend to improve.
 
-- Small teams or solo
-- Written communication over meetings
-- Asynchronous by default
-- Clear goals, flexible paths
-- Time blocked for deep work and exploration
+I’m cautious about adding process, tools, or abstraction unless they solve a real problem.
 
-I do my best work when I’m trusted to manage my own time and process.
+### How I like to work
 
-### 💬 Feedback & communication
+I gravitate toward small teams where communication is direct and decisions are easier to trace.
 
-- I appreciate **direct, specific feedback**
-- Early feedback is better than late feedback
-- I don’t take criticism personally when it’s about improving the work
-- Written context before discussions helps a lot
+Writing things down is important to me. It reduces ambiguity and gives ideas space to mature before being acted on.
 
-If something feels off, I prefer to talk about it openly.
+I value constraints — they often lead to better, simpler solutions.
 
-### 📚 Influences
+Before starting, I prefer spending enough time understanding what we are actually trying to solve. Once that’s clear, I’m comfortable moving quickly and iterating.
 
-Some people and ideas that have shaped how I think:
+I’m less interested in noise, urgency, or performative productivity. Consistent progress matters more.
 
-- Stoic philosophy
-- Physics and first-principles thinking
-- Builders who explain _why_, not just _how_
-- Channels like [Veritasium](https://www.youtube.com/veritasium) and [Ben Eater](https://www.youtube.com/c/BenEater)
+Trust improves my work more than oversight.
 
-### 📲 Get in touch
+### Communication
 
-If you want to get in touch, [email](mailto:pz@p8labs.qzz.io) works best.
-[Get in touch →](https://signal.me/#eu/TYGWqLUXWZlRQkKDZRGVrgeoUxswDdpgStXKaXZ5mxWB3V6ukglF_6TeRl-oojVU)
+Clear and direct communication works best with me.
+
+Written context before meetings is always appreciated — it leads to better conversations.
+
+Early feedback is far more useful than late surprises. If something seems off, I’d rather talk about it sooner.
+
+I don’t take thoughtful criticism personally; improving the work is what matters.
+
+### Influences
+
+I’ve always admired engineering that endures — systems designed with enough care that they continue working long after their creators have moved on.
+
+That mindset shows up everywhere for me, from spacecraft like Voyager to everyday machines that simply have to work in every condition.
+
+Stoic philosophy has shaped parts of how I approach both work and uncertainty: focus on what matters, ignore what doesn’t.
+
+I’m still the type of person who installs operating systems just to understand what’s happening underneath.
+
+Channels like [Veritasium](https://www.youtube.com/veritasium) and [Ben Eater](https://www.youtube.com/c/BenEater) continue to remind me how deep this field really is.
+
+### Outside of work
+
+A lot of my free time still revolves around learning — reading, [writing](/blog), and building small things out of curiosity.
+
+Some of those projects become useful tools. Others exist simply because I wanted to understand something better.
+
+I stay involved with a few non-profits when I can. It’s a small way to contribute beyond the technical world.
+
+More often than not, building is just how I relax.
+
+### Get in touch
+
+Email is usually the best way to reach me.
+
+[Email →](mailto:priyanshu@murena.io)  
+[Signal →](https://signal.me/#eu/SdL1SPTKhtDH8LleNPFuF2z8swrsXBlgWUImRVN9ahSW_ADVXiVOFKor-1668oUK)

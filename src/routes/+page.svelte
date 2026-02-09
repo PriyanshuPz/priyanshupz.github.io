@@ -43,7 +43,7 @@
       <p class="text-muted">{PRESENT.project.description}</p>
     </div>
   </a>
-  <a href="/projects"
+  <a href="/p8labs"
     ><div class="mt-5">
       <span>See all projects built so far →</span>
     </div>
