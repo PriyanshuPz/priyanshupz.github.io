@@ -119,5 +119,5 @@ If you're curious about how I operate in a working environment, there’s a shor
 
 [User Manual →](/manual)
 
-If you want to reach me, [email](mailto:priyanshu@murena.io) is best.  
+If you want to reach me, [email](mailto:priyanshupz@zohomail.in) is best.  
 I’m occasionally elsewhere on the [internet](https://www.linkedin.com/in/Priyanshu-Verma-Pz).

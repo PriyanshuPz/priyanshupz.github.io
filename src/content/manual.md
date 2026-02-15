@@ -97,5 +97,5 @@ More often than not, building is just how I relax.
 
 Email is usually the best way to reach me.
 
-[Email →](mailto:priyanshu@murena.io)  
+[Email →](mailto:priyanshupz@zohomail.in)  
 [Signal →](https://signal.me/#eu/SdL1SPTKhtDH8LleNPFuF2z8swrsXBlgWUImRVN9ahSW_ADVXiVOFKor-1668oUK)
