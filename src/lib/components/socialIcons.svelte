@@ -1,5 +1,6 @@
 <script lang="ts">
   import { social } from "$lib/constants";
+  import { trackEvent } from "$lib/trackion";
 </script>
 
 <div
