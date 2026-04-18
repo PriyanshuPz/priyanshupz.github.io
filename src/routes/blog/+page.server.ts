@@ -12,6 +12,8 @@ export async function load() {
       data.push({ ...page.metadata, slug });
     }
 
+    data.sort((a, b) => ((new Date(b.date as any) as any) - (new Date(a.date as any) as any)) as any);
+
     return {
       posts: data,
     };

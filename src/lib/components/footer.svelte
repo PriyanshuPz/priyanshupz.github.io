@@ -11,7 +11,7 @@
     </div>
     <div class="flex items-center gap-1 max-sm:justify-center">
       <span
-        >Powered by <a class="internal-link" href="https://misty.p8labs.tech"
+        >Powered by <a class="internal-link" href="https://misty.p8labs.in"
           >Misty</a
         >.
       </span>
